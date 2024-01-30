@@ -1,4 +1,4 @@
-#Selection Sort Correctness
+### Selection Sort Correctness
 
 **Functioning of Selection Sort:** The algorithm separates the list into two parts - a sorted section and an unsorted section. In every step, it finds the smallest element in the unsorted part and moves it to the sorted part.
 

@@ -38,6 +38,7 @@ topo_sort_graph.add_edge(2, 3)
 topo_sort_graph.add_edge(3, 1)
 print("Topological Sort:", topo_sort_graph.topological_sort())
 
+# solution for 2nd question
 class DFSGraph:
     def __init__(self):
         self.graph = defaultdict(list)
@@ -70,6 +71,7 @@ dfs_graph.add_edge(3, 3)
 print("\nDFS from vertex 2:")
 dfs_graph.dfs(2)
 
+# solution for 3rd question
 class KruskalGraph:
     def __init__(self, vertices_count):
         self.vertices_count = vertices_count
